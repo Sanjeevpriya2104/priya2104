@@ -1,5 +1,8 @@
+name : sanjeevpriya k
+
+reg  no : 212224040289
 # Ex.06 Book Front Cover Page Design
-## Date:
+## Date:1-05-2025
 
 ## AIM:
 To design a book front cover page using HTML and CSS.
@@ -31,9 +34,80 @@ Insert the images in their appropriate places.
 Publish the website in the LocalHost.
 
 ## PROGRAM:
+```
+<html>
+    <head>
+    <title>Book Cover</title>
+    </head>
+    <body>
+        <style>
+            img{
+                margin: 75px;
+                border: 10px solid black;
+            }
+            .book{
+                position: relative;
+                text-align: center;
+            }
+            .book-text1{
+                position: relative;
+                bottom: 690px;
+                font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                font-weight: 1000px;
+                font-style: bold;
+                font-size: x-large;
+                font-display:inherit;
+                color:rgb(10, 70, 49);
+            }
+            .book-text{
+                position: relative;
+                bottom: 720px;
+                color:rgb(10, 70, 49);
+                font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                font-weight: 1000px;
+            }
+            .book-text2{
+                position: relative;
+                bottom: 600px;
+                color:rgb(10, 70, 49);
+                font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                font-weight: 1000px;
+                font-size: large;
+            }
+            .book-text3{
+                position: relative;
+                bottom: 300px;
+                color:rgb(10, 70, 49);
+                font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                font-weight: 1000px;
+                font-size: large;
+            }
+        </style>
+        <center>
+        <div class="book">
+            <img src="book cover.jpg" alt="book" height="650px" width="400px">
+            <div class="book-text">
+                <h3>One of the India's bestselling books</h3>
+            </div>
+            <div class="book-text1">
+                <h1>Soulcraft <br>
+            Shaping your<br> inner self</h1>
+            </div>
+            <div class="book-text2">
+                <h2>Crafting Authentic lives<br>One Choice at a time<br><br><br><br>James Clear</h2>
+            </div>
+            <div class="book-text3">
+                <h1>James Clear</h1>
+            </div>
+        </div>
+    </body>
+</html>
 
+```
 
 ## OUTPUT:
+
+![Screenshot 2025-05-01 154858](https://github.com/user-attachments/assets/fc15caab-fd6d-4275-9a82-39de7e4605b4)
 
 
 ## RESULT:
